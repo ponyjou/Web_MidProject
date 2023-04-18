@@ -1,0 +1,22 @@
+body{
+    text-align:center;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li{
+    text-align:left;
+}
+
+#foodImage {
+    width: 300px; /* 设置图片的固定宽度 */
+    height: 200px; /* 设置图片的固定高度 */
+    display: block;
+    margin: 20px auto;
+    object-fit: cover; /* 保持图片的纵横比并裁剪多余部分，而不是拉伸 */
+  }
+  
